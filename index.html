@@ -2,41 +2,90 @@
 <html>
 <head>
 	<style type="text/css">
-	.yetoudaohang{
-	text-align:center;
+<!--LOGO、导航部分-->
+	.yetou{
 	width:100%;
-	height:30px;
-	background-color:red;
+	font-size:0;
 	}
-	
 	.yetoulogo{
-	font-size:10px
+	height:105px;
 	}
-	
+	.yetoudaohang{
+	padding-bottom:5px;
+	padding-top:5px;
+	background-color:#afffec;
+	text-align:center;
+	}	
 	ul {
 	list-style:none;
-	text-align:center;
+	}
+	.yetou-logo-ul{
+	font-size:15px;
+	color:white;
+	height:100%;
+	background-color:black;
+	}
+	.yetou-daohan-ul{
+	margin:0px auto 5px auto;
 	}
 	
-	ul li{
-	float:left;
+	a{
+	text-decoration:none
 	}
+	.daohang-a{
+	font-size:25px;
+	}
+	
+	.yetou-logo-li{
+	float:left;
+	margin:20px 0px auto;
+	}
+	
+	.li-daohang{
+	display:inline;
+	font-size:20px;
+	margin:auto 5%;
+	}
+	
+<!--内容部分-->
 	</style>
 
 </head>
 <body>
-	<div class="yetou" style="text-align:center">
+<!--页头部分-->
+	<div class="yetou">
 		<div class="yetoulogo">
-			<h1>奎先钱SB看片网</h1>
+			<ul class="yetou-logo-ul">
+				<li class="yetou-logo-li"><img src="img/logo.gif" style="width:55px;height55px;"></li>
+				<li class="yetou-logo-li"><h1>YY看片网</h1></li>
+			</ul>
 		</div>
 		
 		<div class="yetoudaohang">
-			<ul>
-				<a href="tupian.html"><li>成人图片</li></a>
-				<a href="shipin.html"><li>成人视频</li></a>
+			<ul class="yetou-daohan-ul">
+				<li class="li-daohang"><a class="daohang-a" href="tupian.html" style="color:#ffbbbb">萝莉图片</a></li>
+				<li class="li-daohang"><a class="daohang-a" href="tupian.html" style="color:#ffbbbb">少女视频</a></li>
+				<li class="li-daohang"><a class="daohang-a" href="tupian.html" style="color:#ff28a6">欧美视频</a></li>
+				<li class="li-daohang"><a class="daohang-a" href="tupian.html" style="color:#ff28a6">国产专区</a></li>
 			</ul>
 		</div>
 	</div>
+<!--内容部分-->
 
+	<div style="width:75%;background-color:#ededed;margin:auto;text-align:center;">
+		<h2 style="padding-bottom:10px;padding-top:10px;">今日TOP</h2>
+		<ul class="jinrituijian-ul">
+			<li class="jinrituijian-li">
+				<img class="tuijiantupian1" id="tuijiantupian1" src=""/>
+				<p id="tuijianbiaoti">推荐</p>
+			<li>
+			<li class="jinrituijian-li">
+				<img class="tuijiantupian2" id="tuijiantupian2" src=""/>
+				<p id="tuijianbiaoti">推荐</p>
+			<li>
+		</ul>
+	</div>
+<script src="jinrituijian.js"></script>
+<script src="jinrituijian.js"></script>
 </body>
 </html>
